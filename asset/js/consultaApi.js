@@ -21,7 +21,7 @@ export default function consultarApi(ciudad, pais) {
           mostrarError('​Ciudad no encontrada.');
         } else {
           mostrarHTML(data.name, data.weather[0].icon, data.sys.country, data.main.temp, data.main.temp_max, data.main.temp_min, data.main.humidity, data.main.pressure);
-          console.log(data);
+          //console.log(data);
         }
         // console.log(data);
       })
