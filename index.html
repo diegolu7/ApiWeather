@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS  -->
+  <link rel="stylesheet" href="/asset/css/style.css">
+  <title>Diego F. LUIS</title>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <h1>CLIMA</h1>
+      <form action="#" id="formulario">
+        <input class="input" type="text" placeholder="CIUDAD" required>
+        <select class="select" id="pais" required>
+          <option value="">PAÍS</option>
+          <option value="AR">Argentina</option>
+          <option value="CO">Colombia</option>
+          <option value="CR">Costa Rica</option>
+          <option value="ES">España</option>
+          <option value="US">Estados Unidos</option>
+          <option value="MX">México</option>
+          <option value="PE">Perú</option>
+        </select>
+        <input class="btn" type="submit" value="CONSULTAR CLIMA">
+      </form>
+      <div id="resultado">
+        <div id="loading"></div>
+        <p class="p">Agrega tu ciudad y país, el resultado se mostrará aquí.</p>
+      </div>
+      <!-- CARD -->
+      <div class="card">
+        <!-- <h2 class="card__title">Salta / AR</h2>
+        <img class="card__img" src="/asset/img/03n.png" alt="clima">
+        <h3 class="card__temp">15°C</h3>
+        <p class="card__max-min">Max: 23°C / Min: 8°C</p> -->
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer">
+      <a target="_blank" href="https://diego-dev.netlify.app/">Diego.dev</a>
+    </div>
+  </footer>
+  <script src="/asset/js/app.js" type="module"></script>
+</body>
+
+</html>
